@@ -1,0 +1,364 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context="com.anandsinha.myapplication.PoliceProfile"
+    android:weightSum="1">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/mail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#20ffff"
+            android:text="Send Email"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/ComplainDet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No Complaint"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_green_light"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/qrregno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reg No. : "
+            android:textAlignment="center"
+            android:textColor="#808080"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+        <!-- TODO: Update blank fragment layout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.01"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/qrname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Name :"
+                android:textColor="#808080"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/qrdisplayoname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="#444"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.01"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/qrcontact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Contact No. :"
+                android:textColor="#808080"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/qrdisplaycontact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="#444"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.01"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/qradd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Address :"
+                android:textColor="#808080"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/qrdisplayadd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="#444"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.01"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.01"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/qrmaker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Maker :"
+                android:textColor="#808080"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/qrresmaker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="#444"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.01"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/qrregidate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Registration Date  :"
+                android:textColor="#808080"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/qrresregidate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="#444"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.01"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/qrregiauth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Registration Authority  :"
+                android:textColor="#808080"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/qrresregiauth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="#444"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.01"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/qrfuel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Fuel Type :"
+                android:textColor="#808080"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/qrresfuel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="#444"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.01"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/qrvehage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Vehicle Age :"
+                android:textColor="#808080"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/qrresvehage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="#444"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.01"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/qrvehcls"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Vehicle Class :"
+                android:textColor="#808080"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/qrresvehcls"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="#444"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.01"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/qrinsval"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Insurance Validity :"
+                android:textColor="#808080"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/qrresinsval"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="#444"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.01"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/qrfitval"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Fitness Validity :"
+                android:textColor="#808080"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/qrresfitval"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="#444"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.01"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/qrengno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Engine Number :"
+                android:textColor="#808080"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/qrresengno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="#444"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.01"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/qrchano"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Chassis No :"
+                android:textColor="#808080"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/qrreschano"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="#444"
+                android:textSize="20dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,322 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context="com.anandsinha.myapplication.PoliceProfile"
+    android:weightSum="1">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_below="@+id/View">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="#d53"
+            android:onClick="complain"
+            android:text="Lodge Complaint" />
+
+        <Button
+            android:id="@+id/remcomp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/holo_green_light"
+            android:text="Remove Complaint"
+            android:textColor="#000"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/pubregno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Reg No. : "
+            android:textAlignment="center"
+            android:textColor="#808080"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+        <!-- TODO: Update blank fragment layout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.01"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/pubname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Name :"
+                android:textColor="#808080"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/pubdisplayoname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="#444"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.01"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/pubmaker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Maker :"
+                android:textColor="#808080"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/pubresmaker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="#444"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.01"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/pubregidate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Registration Date  :"
+                android:textColor="#808080"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/pubresregidate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="#444"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.01"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/pubregiauth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Registration Authority  :"
+                android:textColor="#808080"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/pubresregiauth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="#444"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.01"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/pubfuel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Fuel Type :"
+                android:textColor="#808080"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/pubresfuel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="#444"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.01"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/pubvehage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Vehicle Age :"
+                android:textColor="#808080"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/pubresvehage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="#444"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.01"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/pubvehcls"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Vehicle Class :"
+                android:textColor="#808080"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/pubresvehcls"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="#444"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.01"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/pubinsval"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Insurance Validity :"
+                android:textColor="#808080"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/pubresinsval"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="#444"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.01"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/pubfitval"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Fitness Validity :"
+                android:textColor="#808080"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/pubresfitval"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="#444"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.01"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/pubengno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Engine Number :"
+                android:textColor="#808080"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/pubresengno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="#444"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.01"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/pubchano"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Chassis No :"
+                android:textColor="#808080"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/pubreschano"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="#444"
+                android:textSize="20dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

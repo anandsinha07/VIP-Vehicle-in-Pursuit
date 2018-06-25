@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.anandsinha.myapplication.VehicleDetailsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView4"></ListView>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:text="Vehicle Details:"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="20dp" />
+</RelativeLayout>

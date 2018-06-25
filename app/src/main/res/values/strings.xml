@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">V!P</string>
+    <string name="signup"><u>Don\'t have an account? Sign up</u></string>
+    <string name="passwdf"><u>Forgot Password?</u></string>
+
+    <string name="aboutus">SAVA is a self proclaimed name given by the developers of this software application consisting of the initials of their names.
+        SAVA has not yet came into market,it earns no profit from any other organisation.
+
+        At SAVA, we understand your problems and requirements equally and hence we bring out our Vehicle in Pursuit(VIP) app to resolve vehicle details queries and many more required
+        features to set a beautiful relation between traffic police and the public with just a click.
+
+    </string>
+
+    <string name="contactus">For further details, Contact us at :\n\n\n
+                        Email us at :\n
+                                anandkumarsinha07@gmail.com,\n
+                                subodhsgujar@gmail.com,\n
+                                ashishdjee@gmail.com\n\n
+                        Call us at :\n
+                                Anand Sinha : 8788472498,\n
+                                Vedant Ingole : 9403170823\n
+        </string>
+
+    <string name="terms">
+        ● The content on this app app is meant for sharing information regarding vehicles on the basis of available information on Vehicle National Register.\n
+
+● Using content of this app for any commercial purpose or any derivative work or misuse of any kind is strictly prohibited and may invite legal consequences.\n
+
+● The content can be removed from the portal without notice and at anytime as per Ministry of Road Transport Direction.\n
+
+● Ministry of Road Transport and Highways/NIC shall not be held responsible for any interactions/passing of information(s) etc. between any user via e-mail,chat and any other mediation with another user.\n
+
+● Ministry of Road Transport and Highways/NIC has no obligation to monitor any such disputes arising between the users and shall not be party to such dispute/litigation etc.\n
+
+● These terms and condition shall be governed by and constructed in accordance with the Indian Laws.\n
+
+● Any dispute arising under these terms and conditions shall be subject to the jurisdiction of the courts of Indian only.\n
+    </string>
+
+    <string name="polFunctionalities">
+        \n\n<u><b>What can Police do through V!P ?</b></u>\n\n
+        -Police requires a valid police id to get registered and get logged in to use this app for checking vehicle information and taking further legal actions.\n
+
+        -Police can automatically send the vehicle towed location to the vehicle owner.\n\n
+Information Retrieval after vehicle search:\n
+
+● Owner Name\n
+
+● Contact number\n
+
+● Address\n
+
+● Maker Info\n
+
+● Registration date\n
+
+● Fuel type\n
+
+● Vehicle age\n
+
+● Registration authority\n
+
+
+● Engine number\n
+
+● Chassis number\n\n
+
+
+    </string>
+
+    <string name="pubFunctionalities">
+        \n\n<u><b>What can Public do through V!P ?</b></u>\n\n
+        -Public requires a valid mobile number to signup or logged in to the VIP app.\n
+        -Public can search and retrieve details of their own vehicles as well as others.\n
+        -Public is also provided a complaint feature in the app where they can issue a complain immediately in case their car has been stolen or robbed.\n\n
+
+Information retrieval after vehicle search:\n
+
+● Owner Name\n
+
+● Maker Info\n
+
+● Registration date\n
+
+● Fuel type\n
+
+● Vehicle age\n
+
+● Registration authority\n
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

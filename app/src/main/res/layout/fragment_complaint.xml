@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/comp"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/details"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="68dp"
+        android:background="#d53"
+        android:text="Submit Complaint"
+        android:textColor="#eee" />
+
+    <EditText
+        android:id="@+id/details"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="110dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:textColor="#000"
+        android:textColorHint="#808080" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="40dp"
+        android:text="Enter details:"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="25dp" />
+
+</RelativeLayout>

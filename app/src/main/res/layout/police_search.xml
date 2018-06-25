@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#fff">
+
+    <EditText
+        android:id="@+id/pubvehicleno1"
+        style="@style/Widget.AppCompat.EditText"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_edittext"
+        android:ems="10"
+        android:hint="Enter Vehicle No."
+        android:inputType="textPersonName"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:textAlignment="center"
+        android:textColor="#444"
+        android:textColorHint="#808080"
+        android:textSize="20dp"
+        android:layout_marginTop="164dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/searchbutton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/pubvehicleno1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp"
+        app:srcCompat="@drawable/polsearch" />
+
+</RelativeLayout>

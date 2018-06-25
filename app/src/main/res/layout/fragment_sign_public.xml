@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#fefefe"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.anandsinha.myapplication.SignPoliceFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        app:srcCompat="@drawable/user_group" />
+
+    <EditText
+        android:id="@+id/dlno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/publicpassword"
+        android:layout_below="@+id/imageView2"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Phone Number"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/black"
+
+        android:textColorHint="#808080" />
+
+    <EditText
+        android:id="@+id/pubemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/publicpassword"
+        android:layout_below="@+id/imageView2"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Email ID"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/black"
+
+        android:textColorHint="#808080" />
+
+    <EditText
+        android:id="@+id/publicpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/publicsubmit"
+        android:layout_alignEnd="@+id/publicconfpassword"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@android:color/black"
+        android:textColorHint="#808080" />
+
+    <EditText
+        android:id="@+id/publicconfpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dlno"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Confirm Password"
+        android:textColor="@android:color/black"
+        android:textColorHint="#808080"
+
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/publicsubmit"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/publicconfpassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:background="#36c7aa"
+        android:text="Sign up"
+        android:textColor="#333"
+        android:textStyle="bold" />
+
+</LinearLayout>
